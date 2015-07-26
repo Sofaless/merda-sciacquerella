@@ -4,7 +4,7 @@
 
 # Description
 
-This event is fired when a player sits down.
+	This event is fired when a player sits down.
 
 # Params
 
