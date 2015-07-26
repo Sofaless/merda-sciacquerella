@@ -3,9 +3,18 @@
 Tipi di parametri:
  * string
  * number
- * vector3 { x, y, z }
- * vector4 { x, y, z, w }
- * identity { type, instance }
+ * vector3
+  * x (number)
+  * y (number)
+  * z (number)
+ * vector4
+  * x (number)
+  * y (number)
+  * z (number)
+  * w (number)
+ * identity
+  * type (number)
+  * instance (number)
 
 Tutti gli eventi hanno i parametri seguenti:
  * sender.id (identity)
