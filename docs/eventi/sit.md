@@ -1,7 +1,8 @@
-## sit
+# Descrizione
+
 > quando un player si sitta
 
-Parametri
+# Parametri
 	
 - 	sender (entity)
 - 	position (vector3)
