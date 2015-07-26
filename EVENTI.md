@@ -1,10 +1,13 @@
-# The largest heading (an <h1> tag)
-## The second largest heading (an <h2> tag)
+# Eventi
 
-In the words of Abraham Lincoln:
-> Pardon my french
+Tutti gli eventi hanno i parametri seguenti:
 
-Lista
-  * primo
-  * secondo
-  * terzo
+* sender.id
+* sender.name
+
+## jump
+> Quando un player salta
+
+Parametri
+  * sender = Chi sta saltando
+
