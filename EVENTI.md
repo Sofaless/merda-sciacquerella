@@ -15,16 +15,18 @@ Tipi di parametri:
  * identity
   * type (number)
   * instance (number)
+ * entity
+  * id (identity)
+  * name (string)
 
 Tutti gli eventi hanno i parametri seguenti:
- * sender.id (identity)
- * sender.name (string)
+ * sender (entity)
 
 ## jump
 > Quando un player salta
 
 Parametri
-  * sender = Chi sta saltando
+  * sender (entity) = Chi sta saltando
   * position (vector3)
   * direction (vector4)
 
@@ -32,7 +34,7 @@ Parametri
 > quando un player si sitta
 
 Parametri
- * sender = Chi si siede
+ * sender (entity) = Chi si siede
  * position (vector3)
  * direction (vector4)
 
@@ -40,10 +42,16 @@ Parametri
 > quando un player si muove
 
 Parametri
- * sender = Chi si muove
+ * sender (entity) = Chi si muove
  * position (vector3)
  * direction (vector4)
 
+## start_attack
+> Quando A inizia ad attaccare B
+
+Parametri
+ * sender (entity) = Chi sta attaccando
+ * target (entity) = Chi viene attaccato
 
 
 
