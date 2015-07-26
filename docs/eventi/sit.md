@@ -1,17 +1,20 @@
-# Evento
+# Name
 
-> Sit
+	sit
 
-# Descrizione
+# Description
 
-> quando un player si sitta
+This event is fired when a player sits down.
 
-# Parametri
-	
-- 	sender (entity)
-- 	position (vector3)
-- 	direction (vector4)
+# Params
 
-# Esempio
+- sender (entity)
+- position (vector3)
+- direction (vector4)
 
-	Nome
+# Example
+
+	game.on('sit', function(e) 
+	{
+		log('Player %s sits down', e.sender.name);
+	});
